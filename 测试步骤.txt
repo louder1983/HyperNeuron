@@ -1,0 +1,3 @@
+1，解压缩，然后用terminal在HyperNeuron文件夹下，运行 http-server 命令。如没有安装 http-server, 运行 install http-server -g。
+
+2，在浏览器中输入 localhost:8080/docs/examples/HyperNeuron/index.html

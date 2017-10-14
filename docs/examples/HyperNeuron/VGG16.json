@@ -1,0 +1,352 @@
+﻿{ "name": "VGG16",
+  "nodes": [
+    {
+      "id": "data",
+      "label": "data",
+      "class": "data",
+      "parent": ""
+    },
+    {
+      "id": "conv1",
+      "label": "conv1",
+      "class": "convolution",
+      "parent": ""
+    },
+    {
+      "id": "conv1_1",
+      "label": "conv1_1",
+      "class": "convolution",
+      "parent": "conv1"
+    },
+    {
+      "id": "conv1_2",
+      "label": "conv1_2",
+      "class": "convolution",
+      "parent": "conv1"
+    },
+    {
+      "id": "pool1",
+      "label": "pool1",
+      "class": "pooling",
+      "parent": ""
+    },
+    {
+      "id": "conv2",
+      "label": "conv2",
+      "class": "convolution",
+      "parent": ""
+    },
+    {
+      "id": "conv2_1",
+      "label": "conv2_1",
+      "class": "convolution",
+      "parent": "conv2"
+    },
+    {
+      "id": "conv2_2",      
+      "label": "conv2_2",
+      "class": "convolution",
+      "parent": "conv2"
+    },
+    {
+      "id": "pool2",      
+      "label": "pool2",
+      "class": "pooling",
+      "parent": ""
+    },
+    {
+      "id": "conv3",      
+      "label": "conv3",
+      "class": "convolution",
+      "parent": ""
+    },
+    {
+      "id": "conv3_1",      
+      "label": "conv3_1",
+      "class": "convolution",
+      "parent": "conv3"
+    },
+    {
+      "id": "conv3_2",      
+      "label": "conv3_2",
+      "class": "convolution",
+      "parent": "conv3"
+    },
+    {
+      "id": "conv3_3",      
+      "label": "conv3_3",
+      "class": "convolution",
+      "parent": "conv3"
+    },
+    {
+      "id": "pool3",      
+      "label": "pool3",
+      "class": "pooling",
+      "parent": ""
+    },
+    {
+      "id": "conv4",      
+      "label": "conv4",
+      "class": "convolution",
+      "parent": ""
+    },
+    {
+      "id": "conv4_1",      
+      "label": "conv4_1",
+      "class": "convolution",
+      "parent": "conv4"
+    },
+    {
+      "id": "conv4_2",      
+      "label": "conv4_2",
+      "class": "convolution",
+      "parent": "conv4"
+    },
+    {
+      "id": "conv4_3",      
+      "label": "conv4_3",
+      "class": "convolution",
+      "parent": "conv4"
+    },
+    {
+      "id": "pool4",      
+      "label": "pool4",
+      "class": "pooling",
+      "parent": ""
+    },
+    {
+      "id": "conv5",      
+      "label": "conv5",
+      "class": "convolution",
+      "parent": ""
+    },
+    {
+      "id": "conv5_1",      
+      "label": "conv5_1",
+      "class": "convolution",
+      "parent": "conv5"
+    },
+    {
+      "id": "conv5_2",      
+      "label": "conv5_2",
+      "class": "convolution",
+      "parent": "conv5"
+    },
+    {
+      "id": "conv5_3",      
+      "label": "conv5_3",
+      "class": "convolution",
+      "parent": "conv5"
+    },
+    {
+      "id": "pool5",      
+      "label": "pool5",
+      "class": "pooling",
+      "parent": ""
+    },
+    {
+      "id": "fc",      
+      "label": "fc",
+      "class": "fc",
+      "parent": ""
+    },
+    {
+      "id": "fc6",      
+      "label": "fc6",
+      "class": "fc",
+      "parent": "fc"
+    },
+    {
+      "id": "fc7",      
+      "label": "fc7",
+      "class": "fc",
+      "parent": "fc"
+    },
+    {
+      "id": "fc8",      
+      "label": "fc8",
+      "class": "fc",
+      "parent": "fc"
+    },
+    {
+      "id": "prob",      
+      "label": "prob",
+      "class": "prob",
+      "parent": ""
+    }
+  ],
+  "edges_maingraph": [
+    {
+      "src": "data",
+      "dst": "conv1",     
+      "label": ""
+    },
+    {
+      "src": "conv1",
+      "dst": "pool1",
+      "label": ""
+    },
+    {
+      "src": "pool1",
+      "dst": "conv2",
+      "label": ""
+    },
+    {
+      "src": "conv2",
+      "dst": "pool2",
+      "label": ""
+    },
+    {
+      "src": "pool2",
+      "dst": "conv3",
+      "label": ""
+    },
+    {
+      "src": "conv3",
+      "dst": "pool3",
+      "label": ""
+    },
+    {
+      "src": "pool3",
+      "dst": "conv4",
+      "label": ""
+    },
+    {
+      "src": "conv4",
+      "dst": "pool4",
+      "label": ""
+    },
+    {
+      "src": "pool4",
+      "dst": "conv5",
+      "label": ""
+    },
+    {
+      "src": "conv5",
+      "dst": "pool5",
+      "label": ""
+    },
+    {
+      "src": "pool5",
+      "dst": "fc",
+      "label": ""
+    },
+    {
+      "src": "fc",
+      "dst": "prob",
+      "label": ""
+    }
+  ],
+  "edges": [
+    {
+      "src": "data",
+      "dst": "conv1_1",     
+      "label": ""
+    },
+    {
+      "src": "conv1_1",
+      "dst": "conv1_2",      
+      "label": ""
+    },
+    {
+      "src": "conv1_2",
+      "dst": "pool1",
+      "label": ""
+    },
+    {
+      "src": "pool1",
+      "dst": "conv2_1",
+      "label": ""
+    },
+    {
+      "src": "conv2_1",
+      "dst": "conv2_2",
+      "label": ""
+    },
+    {
+      "src": "conv2_2",
+      "dst": "pool2",
+      "label": ""
+    },
+    {
+      "src": "pool2",
+      "dst": "conv3_1",
+      "label": ""
+    },
+    {
+      "src": "conv3_1",
+      "dst": "conv3_2",
+      "label": ""
+    },
+    {
+      "src": "conv3_2",
+      "dst": "conv3_3",
+      "label": ""
+    },
+    {
+      "src": "conv3_3",
+      "dst": "pool3",
+      "label": ""
+    },
+    {
+      "src": "pool3",
+      "dst": "conv4_1",
+      "label": ""
+    },
+    {
+      "src": "conv4_1",
+      "dst": "conv4_2",
+      "label": ""
+    },
+    {
+      "src": "conv4_2",
+      "dst": "conv4_3",
+      "label": ""
+    },
+    {
+      "src": "conv4_3",
+      "dst": "pool4",
+      "label": ""
+    },
+    {
+      "src": "pool4",
+      "dst": "conv5_1",
+      "label": ""
+    },
+    {
+      "src": "conv5_1",
+      "dst": "conv5_2",
+      "label": ""
+    },
+    {
+      "src": "conv5_2",
+      "dst": "conv5_3",
+      "label": ""
+    },
+    {
+      "src": "conv5_3",
+      "dst": "pool5",
+      "label": ""
+    },
+    {
+      "src": "pool5",
+      "dst": "fc6",
+      "label": ""
+    },
+    {
+      "src": "fc6",
+      "dst": "fc7",
+      "label": ""
+    },
+    {
+      "src": "fc7",
+      "dst": "fc8",
+      "label": ""
+    },
+    {
+      "src": "fc8",
+      "dst": "prob",
+      "label": ""
+    }
+  ]
+}

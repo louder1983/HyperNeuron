@@ -1,0 +1,601 @@
+﻿{ "name": "resNet",
+  "nodes": [
+    {
+      "id": "Data1",
+      "label": "Data1",
+      "class": "data"
+    },
+    {
+      "id": "Convolution1",
+      "label": "Convolution1",
+      "class": "convolution"
+    },
+    {
+      "id": "Convolution2",
+      "label": "Convolution2",
+      "class": "convolution"
+    },
+    {
+      "id": "Convolution3",
+      "label": "Convolution3",
+      "class": "convolution"
+    },
+    {
+      "id": "Eltwise1",
+      "label": "Eltwise1",
+      "class": "Eltwise"
+    },
+    {
+      "id": "Convolution4",      
+      "label": "Convolution4",
+      "class": "convolution"
+    },
+    {
+      "id": "Convolution5",      
+      "label": "Convolution5",
+      "class": "convolution"
+    },
+    {
+      "id": "Eltwise2",      
+      "label": "Eltwise2",
+      "class": "Eltwise"
+    },
+    {
+      "id": "Convolution6",      
+      "label": "Convolution6",
+      "class": "convolution"
+    },
+    {
+      "id": "Convolution7",      
+      "label": "Convolution7",
+      "class": "convolution"
+    },
+    {
+      "id": "Eltwise3",      
+      "label": "Eltwise3",
+      "class": "Eltwise"
+    },
+    {
+      "id": "Convolution8",      
+      "label": "Convolution8",
+      "class": "convolution"
+    },
+    {
+      "id": "Convolution9",      
+      "label": "Convolution9",
+      "class": "convolution"
+    },
+    {
+      "id": "Eltwise4",      
+      "label": "Eltwise4",
+      "class": "Eltwise"
+    },
+    {
+      "id": "Convolution10",      
+      "label": "Convolution10",
+      "class": "convolution"
+    },
+    {
+      "id": "Convolution11",      
+      "label": "Convolution11",
+      "class": "convolution"
+    },
+    {
+      "id": "Eltwise5",      
+      "label": "Eltwise5",
+      "class": "Eltwise"
+    },
+    {
+      "id": "Convolution12",      
+      "label": "Convolution12",
+      "class": "convolution"
+    },
+    {
+      "id": "Convolution13",      
+      "label": "Convolution13",
+      "class": "convolution"
+    },
+    {
+      "id": "Convolution14",      
+      "label": "Convolution14",
+      "class": "convolution"
+    },
+    {
+      "id": "Eltwise6",      
+      "label": "Eltwise6",
+      "class": "Eltwise"
+    },
+    {
+      "id": "Convolution15",      
+      "label": "Convolution15",
+      "class": "convolution"
+    },
+    {
+      "id": "Convolution16",      
+      "label": "Convolution16",
+      "class": "convolution"
+    },
+    {
+      "id": "Eltwise7",      
+      "label": "Eltwise7",
+      "class": "Eltwise"
+    },
+    {
+      "id": "Convolution17",      
+      "label": "Convolution17",
+      "class": "convolution"
+    },
+    {
+      "id": "Convolution18",      
+      "label": "Convolution18",
+      "class": "convolution"
+    },
+    {
+      "id": "Eltwise8",      
+      "label": "Eltwise8",
+      "class": "Eltwise"
+    },
+    {
+      "id": "Convolution19",      
+      "label": "Convolution19",
+      "class": "convolution"
+    },
+    {
+      "id": "Convolution20",      
+      "label": "Convolution20",
+      "class": "convolution"
+    },
+    {
+      "id": "Eltwise9",      
+      "label": "Eltwise9",
+      "class": "Eltwise"
+    },
+    {
+      "id": "Convolution21",      
+      "label": "Convolution21",
+      "class": "convolution"
+    },
+    {
+      "id": "Convolution22",      
+      "label": "Convolution22",
+      "class": "convolution"
+    },
+    {
+      "id": "Eltwise10",      
+      "label": "Eltwise10",
+      "class": "Eltwise"
+    },
+    {
+      "id": "Convolution23",      
+      "label": "Convolution23",
+      "class": "convolution"
+    },
+    {
+      "id": "Convolution24",      
+      "label": "Convolution24",
+      "class": "convolution"
+    },
+    {
+      "id": "Convolution25",      
+      "label": "Convolution25",
+      "class": "convolution"
+    },
+    {
+      "id": "Eltwise11",      
+      "label": "Eltwise11",
+      "class": "Eltwise"
+    },
+    {
+      "id": "Convolution26",      
+      "label": "Convolution26",
+      "class": "convolution"
+    },
+    {
+      "id": "Convolution27",      
+      "label": "Convolution27",
+      "class": "convolution"
+    },
+    {
+      "id": "Eltwise12",      
+      "label": "Eltwise12",
+      "class": "Eltwise"
+    },
+    {
+      "id": "Convolution28",      
+      "label": "Convolution28",
+      "class": "convolution"
+    },
+    {
+      "id": "Convolution29",      
+      "label": "Convolution29",
+      "class": "convolution"
+    },
+    {
+      "id": "Eltwise13",      
+      "label": "Eltwise13",
+      "class": "Eltwise"
+    },
+    {
+      "id": "Convolution30",      
+      "label": "Convolution30",
+      "class": "convolution"
+    },
+    {
+      "id": "Convolution31",      
+      "label": "Convolution31",
+      "class": "convolution"
+    },
+    {
+      "id": "Eltwise14",      
+      "label": "Eltwise14",
+      "class": "Eltwise"
+    },
+    {
+      "id": "Convolution32",      
+      "label": "Convolution32",
+      "class": "convolution"
+    },
+    {
+      "id": "Convolution33",      
+      "label": "Convolution33",
+      "class": "convolution"
+    },
+    {
+      "id": "Eltwise15",      
+      "label": "Eltwise15",
+      "class": "Eltwise"
+    },
+    {
+      "id": "Pooling1",      
+      "label": "Pooling1",
+      "class": "pooling"
+    },
+    {
+      "id": "InnerProduct1",      
+      "label": "InnerProduct1",
+      "class": "innerproduct"
+    },
+    {
+      "id": "SoftmaxWithLoss1",      
+      "label": "SoftmaxWithLoss1",
+      "class": "softmaxwithloss"
+    }
+  ],
+  "edges": [
+    {
+      "src": "Data1",
+      "dst": "SoftmaxWithLoss1",     
+      "label": ""
+    },
+    {
+      "src": "Data1",
+      "dst": "Convolution1",      
+      "label": ""
+    },
+    {
+      "src": "Convolution1",
+      "dst": "Eltwise1",
+      "label": ""
+    },
+    {
+      "src": "Convolution1",
+      "dst": "Convolution2",
+      "label": ""
+    },
+    {
+      "src": "Convolution2",
+      "dst": "Convolution3",
+      "label": ""
+    },
+    {
+      "src": "Convolution3",
+      "dst": "Eltwise1",
+      "label": ""
+    },
+    {
+      "src": "Eltwise1",
+      "dst": "Eltwise2",
+      "label": ""
+    },
+    {
+      "src": "Eltwise1",
+      "dst": "Convolution4",
+      "label": ""
+    },
+    {
+      "src": "Convolution4",
+      "dst": "Convolution5",
+      "label": ""
+    },
+    {
+      "src": "Convolution5",
+      "dst": "Eltwise2",
+      "label": ""
+    },
+    {
+      "src": "Eltwise2",
+      "dst": "Eltwise3",
+      "label": ""
+    },
+    {
+      "src": "Eltwise2",
+      "dst": "Convolution6",
+      "label": ""
+    },
+    {
+      "src": "Convolution6",
+      "dst": "Convolution7",
+      "label": ""
+    },
+    {
+      "src": "Convolution7",
+      "dst": "Eltwise3",
+      "label": ""
+    },
+    {
+      "src": "Eltwise3",
+      "dst": "Eltwise4",
+      "label": ""
+    },
+    {
+      "src": "Eltwise3",
+      "dst": "Convolution8",
+      "label": ""
+    },
+    {
+      "src": "Convolution8",
+      "dst": "Convolution9",
+      "label": ""
+    },
+    {
+      "src": "Convolution9",
+      "dst": "Eltwise4",
+      "label": ""
+    },
+    {
+      "src": "Eltwise4",
+      "dst": "Eltwise5",
+      "label": ""
+    },
+    {
+      "src": "Eltwise4",
+      "dst": "Convolution10",
+      "label": ""
+    },
+    {
+      "src": "Convolution10",
+      "dst": "Convolution11",
+      "label": ""
+    },
+    {
+      "src": "Convolution11",
+      "dst": "Eltwise5",
+      "label": ""
+    },
+    {
+      "src": "Eltwise5",
+      "dst": "Convolution12",
+      "label": ""
+    },
+    {
+      "src": "Convolution12",
+      "dst": "Eltwise6",
+      "label": ""
+    },
+    {
+      "src": "Eltwise5",
+      "dst": "Convolution13",
+      "label": ""
+    },
+    {
+      "src": "Convolution13",
+      "dst": "Convolution14",
+      "label": ""
+    },
+    {
+      "src": "Convolution14",
+      "dst": "Eltwise6",
+      "label": ""
+    },
+    {
+      "src": "Eltwise6",
+      "dst": "Eltwise7",
+      "label": ""
+    },
+    {
+      "src": "Eltwise6",
+      "dst": "Convolution15",
+      "label": ""
+    },
+    {
+      "src": "Convolution15",
+      "dst": "Convolution16",
+      "label": ""
+    },
+    {
+      "src": "Convolution16",
+      "dst": "Eltwise7",
+      "label": ""
+    },
+    {
+      "src": "Eltwise7",
+      "dst": "Eltwise8",
+      "label": ""
+    },
+    {
+      "src": "Eltwise7",
+      "dst": "Convolution17",
+      "label": ""
+    },
+    {
+      "src": "Convolution17",
+      "dst": "Convolution18",
+      "label": ""
+    },
+    {
+      "src": "Convolution18",
+      "dst": "Eltwise8",
+      "label": ""
+    },
+    {
+      "src": "Eltwise8",
+      "dst": "Eltwise9",
+      "label": ""
+    },
+    {
+      "src": "Eltwise8",
+      "dst": "Convolution19",
+      "label": ""
+    },
+    {
+      "src": "Convolution19",
+      "dst": "Convolution20",
+      "label": ""
+    },
+    {
+      "src": "Convolution20",
+      "dst": "Eltwise9",
+      "label": ""
+    },
+    {
+      "src": "Eltwise9",
+      "dst": "Eltwise10",
+      "label": ""
+    },
+    {
+      "src": "Eltwise9",
+      "dst": "Convolution21",
+      "label": ""
+    },
+    {
+      "src": "Convolution21",
+      "dst": "Convolution22",
+      "label": ""
+    },
+    {
+      "src": "Convolution22",
+      "dst": "Eltwise10",
+      "label": ""
+    },
+    {
+      "src": "Eltwise10",
+      "dst": "Convolution23",
+      "label": ""
+    },
+    {
+      "src": "Convolution23",
+      "dst": "Eltwise11",
+      "label": ""
+    },
+    {
+      "src": "Eltwise10",
+      "dst": "Convolution24",
+      "label": ""
+    },
+    {
+      "src": "Convolution24",
+      "dst": "Convolution25",
+      "label": ""
+    },
+    {
+      "src": "Convolution25",
+      "dst": "Eltwise11",
+      "label": ""
+    },
+    {
+      "src": "Eltwise11",
+      "dst": "Eltwise12",
+      "label": ""
+    },
+    {
+      "src": "Eltwise11",
+      "dst": "Convolution26",
+      "label": ""
+    },
+    {
+      "src": "Convolution26",
+      "dst": "Convolution27",
+      "label": ""
+    },
+    {
+      "src": "Convolution27",
+      "dst": "Eltwise12",
+      "label": ""
+    },
+    {
+      "src": "Eltwise12",
+      "dst": "Eltwise13",
+      "label": ""
+    },
+    {
+      "src": "Eltwise12",
+      "dst": "Convolution28",
+      "label": ""
+    },
+    {
+      "src": "Convolution28",
+      "dst": "Convolution29",
+      "label": ""
+    },
+    {
+      "src": "Convolution29",
+      "dst": "Eltwise13",
+      "label": ""
+    },
+    {
+      "src": "Eltwise13",
+      "dst": "Eltwise14",
+      "label": ""
+    },
+    {
+      "src": "Eltwise13",
+      "dst": "Convolution30",
+      "label": ""
+    },
+    {
+      "src": "Convolution30",
+      "dst": "Convolution31",
+      "label": ""
+    },
+    {
+      "src": "Convolution31",
+      "dst": "Eltwise14",
+      "label": ""
+    },
+    {
+      "src": "Eltwise14",
+      "dst": "Eltwise15",
+      "label": ""
+    },
+    {
+      "src": "Eltwise14",
+      "dst": "Convolution32",
+      "label": ""
+    },
+    {
+      "src": "Convolution32",
+      "dst": "Convolution33",
+      "label": ""
+    },
+    {
+      "src": "Convolution33",
+      "dst": "Eltwise15",
+      "label": ""
+    },
+    {
+      "src": "Eltwise15",
+      "dst": "Pooling1",
+      "label": ""
+    },
+    {
+      "src": "Pooling1",
+      "dst": "InnerProduct1",
+      "label": ""
+    },
+    {
+      "src": "InnerProduct1",
+      "dst": "SoftmaxWithLoss1",
+      "label": ""
+    }
+  ]
+}

@@ -1,0 +1,301 @@
+﻿{ "name": "MobileNet",
+  "nodes": [
+    {
+      "id": "data",
+      "label": "data",
+      "class": "data"
+    },
+    {
+      "id": "conv1",
+      "label": "conv1",
+      "class": "convolution"
+    },
+    {
+      "id": "conv2_1/dw",
+      "label": "conv2_1/dw",
+      "class": "convolution"
+    },
+    {
+      "id": "conv2_1/sep",
+      "label": "conv2_1/sep",
+      "class": "convolution"
+    },
+    {
+      "id": "conv2_2/dw",
+      "label": "conv2_2/dw",
+      "class": "convolution"
+    },
+    {
+      "id": "conv2_2/sep",      
+      "label": "conv2_2/sep",
+      "class": "convolution"
+    },
+    {
+      "id": "conv3_1/dw",      
+      "label": "conv3_1/dw",
+      "class": "convolution"
+    },
+    {
+      "id": "conv3_1/sep",      
+      "label": "conv3_1/sep",
+      "class": "convolution"
+    },
+    {
+      "id": "conv3_2/dw",      
+      "label": "conv3_2/dw",
+      "class": "convolution"
+    },
+    {
+      "id": "conv3_2/sep",      
+      "label": "conv3_2/sep",
+      "class": "convolution"
+    },
+    {
+      "id": "conv4_1/dw",      
+      "label": "conv4_1/dw",
+      "class": "convolution"
+    },
+    {
+      "id": "conv4_1/sep",      
+      "label": "conv4_1/sep",
+      "class": "convolution"
+    },
+    {
+      "id": "conv4_2/dw",      
+      "label": "conv4_2/dw",
+      "class": "convolution"
+    },
+    {
+      "id": "conv4_2/sep",      
+      "label": "conv4_2/sep",
+      "class": "convolution"
+    },
+    {
+      "id": "conv5_1/dw",      
+      "label": "conv5_1/dw",
+      "class": "convolution"
+    },
+    {
+      "id": "conv5_1/sep",      
+      "label": "conv5_1/sep",
+      "class": "convolution"
+    },
+    {
+      "id": "conv5_2/dw",      
+      "label": "conv5_2/dw",
+      "class": "convolution"
+    },
+    {
+      "id": "conv5_2/sep",      
+      "label": "conv5_2/sep",
+      "class": "convolution"
+    },
+    {
+      "id": "conv5_3/dw",      
+      "label": "conv5_3/dw",
+      "class": "convolution"
+    },
+    {
+      "id": "conv5_3/sep",      
+      "label": "conv5_3/sep",
+      "class": "convolution"
+    },
+    {
+      "id": "conv5_4/dw",      
+      "label": "conv5_4/dw",
+      "class": "convolution"
+    },
+    {
+      "id": "conv5_4/sep",      
+      "label": "conv5_4/sep",
+      "class": "convolution"
+    },
+    {
+      "id": "conv5_5/dw",      
+      "label": "conv5_5/dw",
+      "class": "convolution"
+    },
+    {
+      "id": "conv5_5/sep",      
+      "label": "conv5_5/sep",
+      "class": "convolution"
+    },
+    {
+      "id": "conv5_6/dw",      
+      "label": "conv5_6/dw",
+      "class": "convolution"
+    },
+    {
+      "id": "conv5_6/sep",      
+      "label": "conv5_6/sep",
+      "class": "convolution"
+    },
+    {
+      "id": "conv6/dw",      
+      "label": "conv6/dw",
+      "class": "convolution"
+    },
+    {
+      "id": "conv6/sep",      
+      "label": "conv6/sep",
+      "class": "convolution"
+    },
+    {
+      "id": "pool6",      
+      "label": "pool6",
+      "class": "pooling"
+    },
+    {
+      "id": "fc7",      
+      "label": "fc7",
+      "class": "fc"
+    }
+  ],
+  "edges": [
+    {
+      "src": "data",
+      "dst": "conv1",     
+      "label": ""
+    },
+    {
+      "src": "conv1",
+      "dst": "conv2_1/dw",      
+      "label": ""
+    },
+    {
+      "src": "conv2_1/dw",
+      "dst": "conv2_1/sep",
+      "label": ""
+    },
+    {
+      "src": "conv2_1/sep",
+      "dst": "conv2_2/dw",
+      "label": ""
+    },
+    {
+      "src": "conv2_2/dw",
+      "dst": "conv2_2/sep",
+      "label": ""
+    },
+    {
+      "src": "conv2_2/sep",
+      "dst": "conv3_1/dw",
+      "label": ""
+    },
+    {
+      "src": "conv3_1/dw",
+      "dst": "conv3_1/sep",
+      "label": ""
+    },
+    {
+      "src": "conv3_1/sep",
+      "dst": "conv3_2/dw",
+      "label": ""
+    },
+    {
+      "src": "conv3_2/dw",
+      "dst": "conv3_2/sep",
+      "label": ""
+    },
+    {
+      "src": "conv3_2/sep",
+      "dst": "conv4_1/dw",
+      "label": ""
+    },
+    {
+      "src": "conv4_1/dw",
+      "dst": "conv4_1/sep",
+      "label": ""
+    },
+    {
+      "src": "conv4_1/sep",
+      "dst": "conv4_2/dw",
+      "label": ""
+    },
+    {
+      "src": "conv4_2/dw",
+      "dst": "conv4_2/sep",
+      "label": ""
+    },
+    {
+      "src": "conv4_2/sep",
+      "dst": "conv5_1/dw",
+      "label": ""
+    },
+    {
+      "src": "conv5_1/dw",
+      "dst": "conv5_1/sep",
+      "label": ""
+    },
+    {
+      "src": "conv5_1/sep",
+      "dst": "conv5_2/dw",
+      "label": ""
+    },
+    {
+      "src": "conv5_2/dw",
+      "dst": "conv5_2/sep",
+      "label": ""
+    },
+    {
+      "src": "conv5_2/sep",
+      "dst": "conv5_3/dw",
+      "label": ""
+    },
+    {
+      "src": "conv5_3/dw",
+      "dst": "conv5_3/sep",
+      "label": ""
+    },
+    {
+      "src": "conv5_3/sep",
+      "dst": "conv5_4/dw",
+      "label": ""
+    },
+    {
+      "src": "conv5_4/dw",
+      "dst": "conv5_4/sep",
+      "label": ""
+    },
+    {
+      "src": "conv5_4/sep",
+      "dst": "conv5_5/dw",
+      "label": ""
+    },
+    {
+      "src": "conv5_5/dw",
+      "dst": "conv5_5/sep",
+      "label": ""
+    },
+    {
+      "src": "conv5_5/sep",
+      "dst": "conv5_6/dw",
+      "label": ""
+    },
+    {
+      "src": "conv5_6/dw",
+      "dst": "conv5_6/sep",
+      "label": ""
+    },
+    {
+      "src": "conv5_6/sep",
+      "dst": "conv6/dw",
+      "label": ""
+    },
+    {
+      "src": "conv6/dw",
+      "dst": "conv6/sep",
+      "label": ""
+    },
+    {
+      "src": "conv6/sep",
+      "dst": "pool6",
+      "label": ""
+    },
+    {
+      "src": "pool6",
+      "dst": "fc7",
+      "label": ""
+    }
+  ]
+}
